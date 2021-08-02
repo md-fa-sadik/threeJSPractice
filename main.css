@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Poppins";
+  background-color: rgb(14, 14, 14);
+  overflow-x: hidden;
+  height: 200vh;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: clamp(25px, 5vw, 50px);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 1em;
+}
+.webgl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  outline: none;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
